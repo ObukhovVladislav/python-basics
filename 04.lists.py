@@ -61,9 +61,11 @@ lesson_dates_and_marks =[
 # i, mark = item -> i, mark = (0, 5) -> i = 0, mark = 5
 
 # Union
-for record in lesson_dates_and_marks:
-    lesson_date, marks = record
-    # print(lesson_dates[i], 'оценка', mark[i])
-    print(record)
+# for record in lesson_dates_and_marks:
+#     lesson_date, marks = record
+#     # print(record, 'или', lesson_date, mark)
+#     print(lesson_date, 'оценка', mark)
 
+for lesson_date, mark in lesson_dates_and_marks:
+    print(lesson_date, 'оценка', mark)
 
