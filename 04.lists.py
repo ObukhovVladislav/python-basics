@@ -12,15 +12,22 @@ students_marks =[
      3,
      2,
      5,
-
 ]
 
-lesson_dates_and_marks =[
-    ['19.05.15', 5],
-    ['19.05.17', 4],
-    ['19.05.18', 3],
-    ['19.05.19', 2],
-    ['19.05.22', 5]
+students_2_marks =[
+     4,
+     3,
+     5,
+     5,
+     5,
+]
+
+# lesson_dates_and_marks =[
+#     ['19.05.15', 5],
+#     ['19.05.17', 4],
+#     ['19.05.18', 3],
+#     ['19.05.19', 2],
+#     ['19.05.22', 5]
 ]
 # len(student_marks) ==
 # i = 0
@@ -66,6 +73,9 @@ lesson_dates_and_marks =[
 #     # print(record, 'или', lesson_date, mark)
 #     print(lesson_date, 'оценка', mark)
 
-for lesson_date, mark in lesson_dates_and_marks:
-    print(lesson_date, 'оценка', mark)
+# for lesson_date, mark in lesson_dates_and_marks:
+#     print(lesson_date, 'оценка', mark)
+
+for lesson_date, mark in zip(lesson_dates, students_marks): # ['19.05.15', 5]
+    print(lesson_date, 'оценка', mark, mark_2)
 
