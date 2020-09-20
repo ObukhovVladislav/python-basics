@@ -1,4 +1,4 @@
-student_marks = []
+#student_marks = []
 #while True:
 #    mark = input('введите оценку студента:\n')
 #    if mark:
