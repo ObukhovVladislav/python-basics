@@ -73,9 +73,9 @@ students_2_marks =[
 #     # print(record, 'или', lesson_date, mark)
 #     print(lesson_date, 'оценка', mark)
 
-# for lesson_date, mark in lesson_dates_and_marks:
+# for lesson_date, mark in lesson_dates_and_marks: # ['19.05.15', 5]
 #     print(lesson_date, 'оценка', mark)
 
-for lesson_date, mark in zip(lesson_dates, students_marks): # ['19.05.15', 5]
-    print(lesson_date, 'оценка', mark, mark_2)
+for lesson_date, mark in zip(lesson_dates, students_marks, students_2_marks): # ['19.05.15', 5]
+    print(lesson_date, 'оценка', 'студента 1', mark, 'студента 2', mark_2)
 
