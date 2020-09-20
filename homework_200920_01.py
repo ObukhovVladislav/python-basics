@@ -10,7 +10,6 @@ while True:
             student_marks.remove(int(mark))
     else:
         break
-
 avg_mark = 0
 for mark in student_marks:
     avg_mark += mark
