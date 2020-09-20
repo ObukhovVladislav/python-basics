@@ -1,16 +1,16 @@
 student_marks = []
 while True:
-    mark = input('введите оценку студента:\n')
+    mark = input('введите оценки студента:\n')
     if mark:
         student_marks.append(int(mark))
         if int(mark) > 5:
-            print('Введите оценку от 1 до 5')
+            print('Введите оценки от 1 до 5')
             student_marks.remove(int(mark))
         elif int(mark) == 0:
             student_marks.remove(int(mark))
     else:
         break
-print('Ввод завершён')
+
 avg_mark = 0
 for mark in student_marks:
     avg_mark += mark
