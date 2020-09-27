@@ -1,16 +1,33 @@
+# student_marks = []
+# while True:
+#     mark = input('введите оценку студента:\n')
+#     if mark:
+#         mark = int(mark)
+#         if mark > 5 or mark < 1:
+#             print('Оценка не подходит под категорию оценивания')
+#         else:
+#             student_marks.append(mark)
+#     else:
+#         break
+#
+# print('ввод завершен')
+
+
+
 student_marks = []
 while True:
     mark = input('введите оценку студента:\n')
     if mark:
         mark = int(mark)
-        if mark > 5 or mark < 1:
-            print('Оценка не подходит под категорию оценивания')
-        else:
+        if 1 <= mark <= 5:
             student_marks.append(mark)
+        else:
+            print('Оценка не подходит под категорию оценивания')
     else:
         break
 
 print('ввод завершен')
+
 
 
 # student_marks = []
