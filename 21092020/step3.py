@@ -1,3 +1,5 @@
+# legacy code
+
 student_marks = []
 while True:
     mark = input('введите оценку студента:\n')
