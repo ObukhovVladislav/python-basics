@@ -52,3 +52,19 @@
 # [7, 4, 4, 3, 2, 4, 5, 5, 4, 2] -> 1 step, [4, 4, 3, 2, 7, 4, 5, 5, 4, 2] -> n // 2 steps
 # list search complexity = O(n)
 # O(n) - о большое эн
+
+# Третий пример кода прошлого задания
+
+student_marks = []
+while True:
+    mark = input('Введите оценку студента:\n')
+    if mark:
+        mark = int(mark)
+        if mark > 5:
+            print('Оценка не подходит под категорию оценивания')
+        elif mark < 1:
+            print('Оценка не подходит под категорию оценивания')
+    else:
+        student_marks.append(mark)  # O(1)
+        break
+print('Ввод завершён')
