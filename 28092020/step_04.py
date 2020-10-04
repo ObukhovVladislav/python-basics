@@ -23,5 +23,5 @@ with open(parsed_data_file, 'w', encoding='utf-8') as f:
     for row in parsed_data:
         # f.write(', '.join(row))  # .csv
         # f.write('\n')
-        f.write(', '.join(row) + '\n')
+        # f.write(', '.join(row) + '\n')
         f.write(f"{', '.join(row)}\n")
