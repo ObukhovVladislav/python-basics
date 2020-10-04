@@ -7,4 +7,3 @@ request_IP_address = row_record.split() [0]
 request_datetime = row_record.split() [4]
 
 print(request_IP_address, request_datetime)
-
