@@ -8,8 +8,6 @@ class Student:
         self.gradebook = None
 
 
-
-
 class Teacher:
     def __init__(self):
         self.name = None
@@ -18,17 +16,12 @@ class Teacher:
         self.discipline = None
 
 
-
-
-
-
 class Study_group:
     def __init__(self):
         self.number = None
         self.number_of_students = None
         self.specialty = None
         self.curator
-
 
 
 class College:
@@ -55,7 +48,6 @@ class Student_on_the_exam:
         self.gradebook = None
 
 
-
 class Car:
     def __init__(self):
         self.engine = None
@@ -63,8 +55,4 @@ class Car:
         self.brand = None
         self.mark = None
         self.type = None
-
-
-
-
 
