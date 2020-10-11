@@ -4,7 +4,6 @@ class Student:
         self.surname = None
         self.patronymic = None
         self.group_number = None
-        self.passport_data = None
         self.student_card = None
         self.gradebook = None
 
@@ -16,49 +15,44 @@ class Teacher:
         self.name = None
         self.surname = None
         self.patronymic = None
-        self.passport_data = None
-        self.subject = None
+        self.discipline = None
 
 
 
 
 
 
-class study_group:
+class Study_group:
     def __init__(self):
         self.number = None
-        self.number_of_people = None
-        self.
-        self.
-        self.
+        self.number_of_students = None
+        self.specialty = None
+        self.curator
 
 
 
 class College:
     def __init__(self):
         self.college_name = None
-        self.
-        self.
-        self.
+        self.administration = None
+        self.number_of_students = None
+        self.discipline = None
         self.
 
 
 class Exam:
     def __init__(self):
-        self.
-        self.
-        self.
-        self.
-        self.
+        self.mark = None
+        self.teacher = None
+        self.discipline = None
 
 
-class Pupil_in_the_exam:
+class Student_on_the_exam:
     def __init__(self):
-        self.
-        self.
-        self.
-        self.
-        self.
+        self.mark = None
+        self.teacher = None
+        self.discipline = None
+        self.gradebook = None
 
 
 
@@ -68,6 +62,7 @@ class Car:
         self.color = None
         self.brand = None
         self.mark = None
+        self.type = None
 
 
 
