@@ -29,8 +29,7 @@ class College:
         self.college_name = None
         self.administration = None
         self.number_of_students = None
-        self.discipline = None
-        self.
+        self.specialties = None
 
 
 class Exam:
