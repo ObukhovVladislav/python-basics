@@ -37,6 +37,7 @@ class Exam:
         self.mark = None
         self.teacher = None
         self.discipline = None
+        self.student = None
 
 
 class Student_on_the_exam:
