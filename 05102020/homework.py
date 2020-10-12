@@ -21,7 +21,7 @@ class Study_group:
         self.number = None
         self.number_of_students = None
         self.specialty = None
-        self.curator
+        self.curator = None
 
 
 class College:
