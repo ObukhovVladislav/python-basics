@@ -16,7 +16,7 @@ class Teacher:
         self.discipline = None
 
 
-class Study_group:
+class StudyGroup:
     def __init__(self):
         self.number = None
         self.number_of_students = None
@@ -40,7 +40,7 @@ class Exam:
         self.student = None
 
 
-class Student_on_the_exam:
+class StudentOnTheExam:
     def __init__(self):
         self.mark = None
         self.teacher = None
